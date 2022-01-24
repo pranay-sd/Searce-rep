@@ -1,8 +1,8 @@
 stack = []
 
-stack.append('a')
-stack.append('b')
-stack.append('c')
+stack.append('Black')
+stack.append('Green')
+stack.append('Red')
  
 print('Initial stack')
 print(stack)
