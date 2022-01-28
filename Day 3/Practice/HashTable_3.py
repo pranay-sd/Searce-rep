@@ -1,4 +1,4 @@
-#Simplifying the access of values just like a dictionery
+ #Simplifying the access of values just like a dictionery
 class HashTable:
     def __init__(self):
         self.Max = 50
