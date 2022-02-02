@@ -1,3 +1,9 @@
+"""a=[[1,2],[3,6],[7,5],[2,9]]
+b=[1,6,2,7,9,3]
+a.sort(reverse=True)
+a.pop()
+print(a)"""
+
 #To find next customer to be served: the one who arrived on or 
 #before present time and has minimum time required to cook pan
 def next_cust(arr, Tn):
@@ -15,7 +21,8 @@ def next_cust(arr, Tn):
 def min_avg_wtime(data, total_cust) :
     #Variables to track the present time update wait times for customers
     Tnow = 0 
-    Twaitsum = 0
+    Twaitsum = 0 
+    data.sort()
     #print(data)
     #Total loops will be equal to number of customers
     for i in range(total_cust) : 

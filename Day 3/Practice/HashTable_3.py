@@ -1,4 +1,4 @@
- #Simplifying the access of values just like a dictionery
+#Simplifying the access of values just like a dictionery
 class HashTable:
     def __init__(self):
         self.Max = 50
@@ -16,6 +16,7 @@ class HashTable:
 
     def __getitem__(self, key) :
         hash = self.get_hash(key)
+
         return self.array[hash]
 
 #Driver code
@@ -27,6 +28,3 @@ if __name__ == "__main__" :
     HT['XUV300'] = "8-13 lacs"
     #HT['XUV500'] = 15-20 lacs
     print(HT['XUV500'])
-
-
-
